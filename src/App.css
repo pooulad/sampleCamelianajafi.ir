@@ -3,10 +3,10 @@
   padding: 0px;
   box-sizing: border-box;
   direction: rtl;
-  /* font-family: "my-font" !important; */
+  font-family: "my-font" !important;
 }
-/* @font-face {
+@font-face {
   font-family: my-font;
-  src: url("../fonts/IRANSans\(FaNum\)_Light.ttf") format("ttf");
-  src: url("../fonts/IRANSansWeb\(FaNum\)_Light.woff") format("woff");
-} */
+  src: url("./assets/fonts/Vazir-Light.ttf") format("ttf");
+  src: url("./assets/fonts/Vazir-Light.woff") format("woff");
+}
