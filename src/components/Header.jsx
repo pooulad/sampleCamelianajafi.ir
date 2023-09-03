@@ -1,6 +1,8 @@
 import React from 'react';
-import { BsTelephoneFill } from "react-icons/bs"
+import { BsTelegram, BsTelephoneFill } from "react-icons/bs"
+import { AiFillLinkedin, AiFillInstagram } from "react-icons/ai"
 import { MdEmail } from "react-icons/md"
+import logo from "../assets/images/logo.webp"
 import "../styles/header.css";
 
 function Header() {
@@ -42,8 +44,44 @@ function Header() {
                     </div>
                 </div>
             </div>
-            <div>Header</div>
-            <div>Header</div>
+            <div className='header_middle'>
+                <img className='header_logo_img' src={logo} alt="logo" />
+                <h1>آکادمی شاتل</h1>
+            </div>
+            <div className='header_bottom'>
+                <div className='navbar_link'>
+                    <a className='header_a_tag_link' href="#">خانه</a>
+                </div>
+                <div className='navbar_link'>
+                    <a className='header_a_tag_link' href="#">دوره ها</a>
+                </div>
+                <div className='navbar_link'>
+                    <a className='header_a_tag_link' href="#">مدرسان</a>
+                </div>
+                <div className='navbar_link'>
+                    <a className='header_a_tag_link' href="#">خبر</a>
+                </div>
+                <div className='navbar_link'>
+                    <a className='header_a_tag_link' href="#">بلاگ</a>
+                </div>
+                <div className='navbar_link'>
+                    <a className='header_a_tag_link' href="#">درباره ما</a>
+                </div>
+                <div className='navbar_link'>
+                    <a className='header_a_tag_link' href="#">زبان ها</a>
+                </div>
+                <div className='navbar_link_icon'>
+                    <div>
+                        <BsTelegram />
+                    </div>
+                    <div>
+                        <AiFillLinkedin />
+                    </div>
+                    <div>
+                        <AiFillInstagram />
+                    </div>
+                </div>
+            </div>
         </header>
     )
 }
